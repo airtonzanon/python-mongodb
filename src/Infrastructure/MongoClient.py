@@ -1,4 +1,4 @@
-class MongoConnection():
+class MongoClient():
 
     def __init__(self, client):
         self.client = client
