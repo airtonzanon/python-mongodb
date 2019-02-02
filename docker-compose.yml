@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  python:
+    build: .
+    volumes:
+      - ./:/opt/app
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb:/data/db
