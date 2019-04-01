@@ -12,6 +12,7 @@
 #### What's missing?
 
 * Tests (Bad thing that I didn't do TDD)
+* Lint (Sorry for that)
 
 #### How to put it up?
 
